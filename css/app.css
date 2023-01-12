@@ -20,7 +20,7 @@ a {
 
 main{
     width: 100%;
-    height: 1010px;
+    height: 1140px;
     background-color: #141922;
 }
 
@@ -33,6 +33,17 @@ main{
     background-color: black;
     width: 230px;
     height: 100%;
+}
+
+/* UPGRADE */
+.upgrade{
+    position: sticky;
+    right: 0;
+    top: 0;
+    left: 230px;
+    height: 90px;
+    width: 100%;
+    color: blue;
 }
 
 
