@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul,
+ol,
+menu,
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+/* MAIN */
+
+main{
+    width: 100%;
+    height: 1010px;
+    background-color: #141922;
+}
+
+/* SIDE */
+
+.sidebar{
+    position: sticky;
+    left: 0;
+    bottom: 90px;
+    background-color: black;
+    width: 230px;
+    height: 100%;
+}
+
+
+
+
+
+/* PLAYER */
+
+.player{
+    background-color: #282828;
+    height: 90px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
