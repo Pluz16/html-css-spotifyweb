@@ -20,7 +20,7 @@ a {
 
 main{
     width: 100%;
-    height: 1140px;
+    height: 100%;
     background-color: #141922;
 }
 
@@ -32,19 +32,24 @@ main{
     bottom: 90px;
     background-color: black;
     width: 230px;
-    height: 100%;
+    height: 1010px;
 }
 
 /* UPGRADE */
 .upgrade{
     position: sticky;
     right: 0;
-    top: 0;
-    left: 230px;
     height: 90px;
-    width: 100%;
-    color: blue;
+    top: 0;
+    color: aquamarine;
 }
+
+/* music */
+
+.music{
+    height: 1010px;
+}
+
 
 
 
