@@ -50,6 +50,7 @@ main{
     height: 90px;
     top: 0;
     display: flex;
+    flex-direction: row-reverse;
     background-color: aquamarine;
     width: 1210px;
 }
@@ -87,5 +88,14 @@ main{
     .actions{
         width: 530px;
         height: 60px;
-        border: whitesmoke;
+        border:solid whitesmoke;
+    }
+
+
+    .options{
+       width: 210px;
+       height: 17px;
+       border: solid whitesmoke;
+       margin-right: 9px;
+       margin-top: 36px;
     }
