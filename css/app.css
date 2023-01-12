@@ -19,7 +19,7 @@ a {
 /* MAIN */
 
 main{
-    width: 100%;
+    max-width: 1430px;
     height: 100%;
     background-color: #141922;
 }
@@ -39,9 +39,10 @@ main{
 /* music */
 
 .music{
-    width: 1210px;
+    width: 1210;
     height: 1010px;
-    position: relative;
+    display: flex;
+    justify-content: right;
 }
 
 /* UPGRADE */
@@ -49,8 +50,10 @@ main{
     position: sticky;
     height: 90px;
     top: 0;
+    right: 0;
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: right;
+    /* flex-direction: row-reverse; */
     background-color: aquamarine;
     width: 1210px;
 }
@@ -89,6 +92,10 @@ main{
         width: 530px;
         height: 60px;
         border:solid whitesmoke;
+    }
+
+    .main-actions ul, li{
+        color: bisque;
     }
 
 
