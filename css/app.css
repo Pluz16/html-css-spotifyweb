@@ -27,7 +27,7 @@ main{
 /* SIDE */
 
 .sidebar{
-    position: sticky;
+    position: fixed;
     left: 0;
     bottom: 90px;
     background-color: black;
@@ -60,7 +60,8 @@ main{
 .player{
     background-color: #282828;
     height: 90px;
-    position: sticky;
+    position: fixed;
+    left: 0;
     bottom: 0;
     width: 100%;
-}
+    }
