@@ -24,6 +24,14 @@ a {
 	--sidebar-width: 230px;
 }
 
+.sidebar,
+.music,
+body > .player {
+	position: fixed;
+}
+
+
+
 /* MAIN */
 
 main{
@@ -34,31 +42,28 @@ main{
 
 /* SIDE */
 
-.sidebar{
-    position: fixed;
-    left: 0;
-    bottom: 90px;
-    background-color: black;
-    width: 230px;
-    overflow: hidden;
+.sidebar {
+	width: var(--sidebar-width);
+	overflow: hidden;
+	background-color: black;
 }
 
-.sidebar .music{
-    height: calc(100vh - 90px);
-}
 
+.sidebar,
+.music {
+	height: calc(100vh - 90px);
+}
 
 /* music */
 
-.music{
-    width: calc(100%-230px);
-    height: 1010px;
-    display: flex;
-    justify-content: right;
-    position: fixed;
-    right: 0;
-    top: 0;
+.music {
+	right: 0;
+	top: 0;
+	width: calc(100% - var(--sidebar-width));
+	overflow-y: auto;
+	background-color: var(--dark-blue);
 }
+
 
 /* UPGRADE */
 .upgrade{
@@ -79,17 +84,14 @@ main{
 
 /* PLAYER */
 
-.player{
-    background-color: #282828;
-    height: 90px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-
-    }
+body > .player {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #282828;
+	height: 90px;
+	/* width: 100%; */
+}
 
     .container-song{
         width: 221px;
@@ -121,3 +123,11 @@ main{
        margin-right: 9px;
        margin-top: 36px;
     }
+
+    /* DEBUG */
+
+    .sidebar,
+.music,
+.player {
+	padding: 20px;
+}
