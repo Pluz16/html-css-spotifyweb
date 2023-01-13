@@ -126,8 +126,37 @@ body > .player {
 
     /* DEBUG */
 
-    .sidebar,
-.music,
-.player {
+    /* .sidebar,
+    .music,
+    .player {
 	padding: 20px;
-}
+    } */
+
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    
+    main {
+        flex-grow: 1;
+        overflow: hidden;
+        display: flex;
+    }
+    
+    .sidebar {
+        flex-basis: var(--sidaber-width);
+        flex-shrink: 0;
+        overflow: hidden;
+    }
+    
+    .music {
+        flex-grow: 1;
+        overflow-y: auto;
+    }
+    
+    .player {
+        flex-shrink: 0;
+    }
+
+    
