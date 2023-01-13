@@ -16,8 +16,12 @@ a {
 	color: currentColor;
 }
 
-:root{
-    --sidebar-width: 230px;
+:root {
+	--dark-blue: #141922;
+	--dark-gray: #282828;
+	--green: #adff2f;
+	--gray: #7d7f84;
+	--sidebar-width: 230px;
 }
 
 /* MAIN */
