@@ -308,8 +308,16 @@ body > .player {
 
     }
 
-    .options, ul, li{
+    .main-options{
+        
+    }
+
+
+
+    .media{
+        display: flex;
         color: white;
+        height: 100%;
     }
 
 
