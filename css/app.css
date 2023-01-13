@@ -132,6 +132,9 @@ body > .player {
 	/* width: 100%; */
     }
 
+
+/* BRANO */
+
     .brano{
         display: flex;
         align-items: center;
@@ -174,7 +177,7 @@ body > .player {
         color: var(--gray);
     }
 
-    .song--ations{
+    .song--actions{
         display: flex;
         justify-content: space-between;
         gap: 12px;
@@ -182,31 +185,43 @@ body > .player {
 
     }
 
-
+/* ACTIONS */
 
     .actions{
         flex-basis: 35%;
         border:solid whitesmoke;
         display: flex;
         flex-direction: column;
+        align-items: center; 
 
     }
 
     .btns{
         display: flex;
+        justify-content: space-between;
+    }
+    
+    .main-actions{
+        display: flex;
+    }
+
+
+    /* .btns{
+        display: flex;
         justify-content: center;
+
+
     }
 
     .main-actions{
         display: flex;
-        flex-wrap: no-wrap;
     }
 
     .main-actions ul, li{
         color: bisque;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .time-bar{
@@ -222,16 +237,17 @@ body > .player {
     }
 
     .right-actions{
-        flex-direction: row;
         display: flex;
+        justify-content: right;
     }
 
     .left-actions{
-        flex-direction: row;
         display: flex;
-    }
+        justify-content: left;
+    } */
 
 
+/* OPTIONS */
     .options{
        /* width: 210px; */
        height: 17px;
