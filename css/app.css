@@ -151,6 +151,8 @@ body > .player {
         width: 221px;
         height: 45px;
         flex-shrink: 1;
+        gap: 12px;
+        align-items: flex-end;
     }
 
     .container-song img{
@@ -163,6 +165,24 @@ body > .player {
         display: flex;
         flex-direction: column;
     }
+    .playing-title{
+        color: white;
+        text-decoration: solid;
+    }
+
+    .playing-artist{
+        color: var(--gray);
+    }
+
+    .song--ations{
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        color: var(--gray);
+
+    }
+
+
 
     .actions{
         flex-basis: 35%;
