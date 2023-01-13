@@ -189,10 +189,10 @@ body > .player {
 
     .actions{
         flex-basis: 35%;
-        border:solid whitesmoke;
         display: flex;
         flex-direction: column;
         align-items: center; 
+        padding-bottom: 5px;
     }
 
     .btns{
@@ -301,11 +301,15 @@ body > .player {
 
 /* OPTIONS */
     .options{
-       /* width: 210px; */
-       height: 17px;
-       border: solid whitesmoke;
-       /* margin-right: 9px;
-       margin-top: 36px; */
+        height: 17px;
+        display: flex;
+        justify-content: space-between;
+        border: solid #adff2f;
+
+    }
+
+    .options, ul, li{
+        color: white;
     }
 
 
