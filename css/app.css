@@ -16,6 +16,10 @@ a {
 	color: currentColor;
 }
 
+:root{
+    --sidebar-width: 230px;
+}
+
 /* MAIN */
 
 main{
@@ -32,17 +36,24 @@ main{
     bottom: 90px;
     background-color: black;
     width: 230px;
-    height: 1010px;
+    overflow: hidden;
+}
+
+.sidebar .music{
+    height: calc(100vh - 90px);
 }
 
 
 /* music */
 
 .music{
-    width: 1210;
+    width: calc(100%-230px);
     height: 1010px;
     display: flex;
     justify-content: right;
+    position: fixed;
+    right: 0;
+    top: 0;
 }
 
 /* UPGRADE */
