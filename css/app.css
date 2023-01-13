@@ -135,6 +135,7 @@ body > .player {
     .container-song,
     .options{
         flex-basis: var(--sidebar-width);
+        display: flex;
     }
 
     .container-song{
@@ -142,6 +143,8 @@ body > .player {
         height: 45px;
         /* margin-left: 16px;
         margin-top: 20px; */
+
+
     }
 
     .container-song img{
@@ -153,15 +156,19 @@ body > .player {
         flex-basis: 35%;
         border:solid whitesmoke;
         display: flex;
+        flex-direction: column;
+
     }
 
     .main-actions{
-        flex-direction: row;
+        /* flex-direction: row; */
         border: solid #adff2f;
     }
 
     .main-actions ul, li{
         color: bisque;
+        display: flex;
+        flex-direction: row;
     }
 
 
@@ -171,6 +178,18 @@ body > .player {
        border: solid whitesmoke;
        /* margin-right: 9px;
        margin-top: 36px; */
+    }
+
+    .time-bar{
+        flex-shrink: 80%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .time-bar > .bar{
+        background-color: azure;
+        flex-shrink: 15%;
+        height: 2px;
     }
 
     
