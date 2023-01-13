@@ -201,15 +201,61 @@ body > .player {
         width: 200px;
         align-items: center;
         justify-content: center;
+        padding-bottom: 13px;
     }
 
     .main--actions, li{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        color: white;
+        text-decoration: double; 
+        width: 100%;
+        font-size: 26px;
+    }
+
+    .left-actions{
+        left:0;
+        gap: 19px;
+    }
+
+    .right-actions{
+        right: 0;
+        gap: 19px;
+    }
+
+    .time-bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
         color: white;
         text-decoration: double;
-        
+        gap: 23px;
     }
+
+    .bar{
+        /* color: white; */
+        text-decoration: solid;
+        width: 430px;
+        height: 5px;
+        border-radius: 45%;
+    }
+
+    .full-time{
+        width: 100%;
+        background-color: var(--gray);
+        height: 100%;
+        border-radius: 45px;
+    }
+
+
+    .time{
+        width: 40%;
+        background-color: white;
+        height: 100%;
+        border-radius: 45px;
+    }
+
 
 
     /* .btns{
