@@ -13,9 +13,13 @@
 		flex-basis: 50px;
 	}
 
-	.logo{
+	.logo, .playlist, .bar--footer, .site--nav p{
 		display: none;
 	}
+
+
+
+
 
 }
 

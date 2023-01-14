@@ -171,7 +171,7 @@ body > .player {
 .bar--footer{
     margin-top: auto;
     display: flex;
-    border:solid #adff2f;
+    /* border:solid #adff2f; */
     width: 100%;
     flex-basis: 76px;
     flex-direction: column;
@@ -192,7 +192,7 @@ body > .player {
 
 .small--bar{
     display: flex;
-        width: 100%;
+        width: calc(100% - 20px);
         background-color: var(--gray);
         border-radius: 45px;
         flex-basis: 1px;
@@ -200,6 +200,10 @@ body > .player {
 
 .install, .user{
     gap: 10px;
+}
+
+.user p{
+    color: white;
 }
 
 
@@ -321,6 +325,7 @@ body > .player {
         align-items: center;
         justify-content: center;
         padding-bottom: 13px;
+        flex-shrink: 1;
     }
 
     .main--actions, li{
@@ -330,16 +335,19 @@ body > .player {
         text-decoration: double; 
         width: 100%;
         font-size: 26px;
+        flex-shrink: 1;
     }
 
     .left-actions{
         left:0;
         gap: 19px;
+        flex-shrink: 1;
     }
 
     .right-actions{
         right: 0;
         gap: 19px;
+        flex-shrink: 1;
     }
 
     .time-bar{
@@ -350,6 +358,7 @@ body > .player {
         color: white;
         text-decoration: double;
         gap: 23px;
+        flex-shrink: 1;
     }
 
     .bar{
@@ -358,6 +367,7 @@ body > .player {
         width: 430px;
         height: 5px;
         border-radius: 45%;
+        flex-shrink: 1;
     }
 
     .full-time{
@@ -365,6 +375,7 @@ body > .player {
         background-color: var(--gray);
         height: 100%;
         border-radius: 45px;
+        flex-shrink: 1;
     }
 
 
@@ -373,6 +384,7 @@ body > .player {
         background-color: white;
         height: 100%;
         border-radius: 45px;
+        flex-shrink: 1;
     }
 
 
