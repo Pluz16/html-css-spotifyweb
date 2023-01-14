@@ -13,7 +13,11 @@
 		flex-basis: 50px;
 	}
 
-	.logo, .playlist, .bar--footer, .site--nav p{
+	.logo, .playlist, .bar--footer p, .site--nav p{
+		display: none;
+	}
+
+	.small--bar{
 		display: none;
 	}
 

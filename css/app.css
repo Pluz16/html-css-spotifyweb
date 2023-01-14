@@ -266,13 +266,13 @@ body > .player {
         display: flex;
     }
 
-    .container-song,
+    .container--song,
     .options{
         flex-basis: var(--sidebar-width);
         display: flex;
     }
 
-    .container-song{
+    .container--song{
         width: 221px;
         height: 45px;
         flex-shrink: 1;
@@ -280,7 +280,7 @@ body > .player {
         align-items: flex-end;
     }
 
-    .container-song img{
+    .container--song img{
         width: 100%;
         height: 100%;
         flex-basis: 45px;
@@ -290,12 +290,12 @@ body > .player {
         display: flex;
         flex-direction: column;
     }
-    .playing-title{
+    .playing--title{
         color: white;
         text-decoration: solid;
     }
 
-    .playing-artist{
+    .playing--artist{
         color: var(--gray);
     }
 
@@ -310,7 +310,7 @@ body > .player {
 /* ACTIONS */
 
     .actions{
-        flex-basis: 35%;
+        /* flex-basis: 35%; */
         display: flex;
         flex-direction: column;
         align-items: center; 
@@ -338,19 +338,21 @@ body > .player {
         flex-shrink: 1;
     }
 
-    .left-actions{
+    .left--actions{
         left:0;
         gap: 19px;
         flex-shrink: 1;
+        display: flex;
     }
 
-    .right-actions{
+    .right--actions{
         right: 0;
         gap: 19px;
         flex-shrink: 1;
+        display: flex;
     }
 
-    .time-bar{
+    .time--bar{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -362,6 +364,7 @@ body > .player {
     }
 
     .bar{
+        display: flex;
         /* color: white; */
         text-decoration: solid;
         width: 430px;
@@ -370,16 +373,18 @@ body > .player {
         flex-shrink: 1;
     }
 
-    .full-time{
+    .full--time{
         width: 100%;
         background-color: var(--gray);
         height: 100%;
         border-radius: 45px;
         flex-shrink: 1;
+        display: flex;
     }
 
 
     .time{
+        display: flex;
         width: 40%;
         background-color: white;
         height: 100%;
@@ -395,12 +400,12 @@ body > .player {
         display: flex;
         justify-content: space-between;
         border: solid #adff2f;
-        align-items: center;
+        align-items: baseline;
         gap: 15px;
-
+        flex-shrink: 1;
     }
 
-    .main-options{
+    .main--options{
         display: flex;
         height: 20px;
         justify-content: space-between;
@@ -421,20 +426,14 @@ body > .player {
         gap: 15px;
     }
 
-    
 
-
-
-
-
-
-
-    .volume-set{
+    .volume--set{
         display: flex;
         flex-basis: 145px;
         /* border: solid #adff2f; */
         color: white;
         gap: 15px;
+        align-items: center;
     }
 
     .volume--bar{
@@ -452,11 +451,5 @@ body > .player {
         background-color: white;
         height: 100%;
         border-radius: 45px;
+        display: flex;
     }
-
-
-
-
-    
-
-    
