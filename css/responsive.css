@@ -12,6 +12,11 @@
 	.sidebar {
 		flex-basis: 50px;
 	}
+
+	.logo{
+		display: none;
+	}
+
 }
 
 

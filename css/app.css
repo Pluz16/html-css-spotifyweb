@@ -94,7 +94,7 @@ body > .player {
 }
 
 /* LOGO */
-.logo-container{
+.logo--container{
     display: flex;
     flex-basis: 44px;
     width: 133px;
@@ -175,8 +175,34 @@ body > .player {
     width: 100%;
     flex-basis: 76px;
     flex-direction: column;
-
+    color: var(--gray);
 }
+
+.install{
+    display: flex;
+    padding-left: 3px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.user{
+    display: flex;
+    padding-top: 13px;
+}
+
+.small--bar{
+    display: flex;
+        width: 100%;
+        background-color: var(--gray);
+        border-radius: 45px;
+        flex-basis: 1px;
+}
+
+.install, .user{
+    gap: 10px;
+}
+
+
 
 
 
