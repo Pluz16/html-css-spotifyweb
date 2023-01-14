@@ -258,58 +258,22 @@ body > .player {
 
 
 
-    /* .btns{
-        display: flex;
-        justify-content: center;
-
-
-    }
-
-    .main-actions{
-        display: flex;
-    }
-
-    .main-actions ul, li{
-        color: bisque;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .time-bar{
-        flex-shrink: 80%;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .time-bar > .bar{
-        background-color: azure;
-        flex-shrink: 15%;
-        height: 2px;
-    }
-
-    .right-actions{
-        display: flex;
-        justify-content: right;
-    }
-
-    .left-actions{
-        display: flex;
-        justify-content: left;
-    } */
-
-
 /* OPTIONS */
     .options{
-        height: 17px;
+        height: 37px;
         display: flex;
         justify-content: space-between;
         border: solid #adff2f;
+        align-items: center;
+        gap: 15px;
 
     }
 
     .main-options{
-        
+        display: flex;
+        height: 20px;
+        justify-content: space-between;
+        /* gap: 15px; */
     }
 
 
@@ -318,7 +282,41 @@ body > .player {
         display: flex;
         color: white;
         height: 100%;
+        justify-content: space-between;
+        /* gap: 15px; */
     }
+
+    .media, li{
+        gap: 15px;
+    }
+
+
+
+
+
+
+
+    .volume-set{
+        display: flex;
+        flex-basis: 200px;
+        /* border: solid #adff2f; */
+        height: 5px;
+    }
+
+    .volume--bar{
+        width: 100%;
+        background-color: var(--gray);
+        height: 100%;
+        border-radius: 45px;
+    }
+
+    .volume{
+        width: 25%;
+        background-color: white;
+        height: 100%;
+        border-radius: 45px;
+    }
+
 
 
 
