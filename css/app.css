@@ -1,7 +1,9 @@
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ul,
@@ -400,7 +402,7 @@ body > .player {
         display: flex;
         justify-content: space-between;
         border: solid #adff2f;
-        align-items: baseline;
+        align-items: center;
         gap: 15px;
         flex-shrink: 1;
     }
@@ -425,6 +427,16 @@ body > .player {
     .media, li{
         gap: 15px;
     }
+
+    .media--icons i{
+        font-size: 18px;
+    }
+
+    .volume--icon i{
+        font-size: 18px;
+    }
+
+
 
 
     .volume--set{
