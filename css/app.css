@@ -197,6 +197,8 @@ a {
 	width: calc(100% - var(--sidebar-width));
 	overflow-y: auto;
 	background-color: var(--dark-blue);
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -232,6 +234,24 @@ a {
         flex-basis: 190px;
         height: 100%;
     }
+
+    .menu-container{
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+        height: 30px;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .nav-menu{
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 20px;
+    }
+
+
 
 
 
