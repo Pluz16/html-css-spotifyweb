@@ -200,7 +200,7 @@ a {
 }
 
 
-/* UPGRADE
+ /* UPGRADE */
 .upgrade{
     position: sticky;
     height: 90px;
@@ -208,10 +208,32 @@ a {
     right: 0;
     display: flex;
     justify-content: right;
+    background-color: #080B12;
+    align-items: center;
     /* flex-direction: row-reverse; */
     /* background-color: aquamarine; */
     /* width: 1210px; */
-/* } */ 
+    } 
+
+    .btn--upgrade{
+    flex-basis: 240px;
+    border:solid white;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    border-radius: 50%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .btn--upgrade i{
+        display: flex;
+        flex-basis: 190px;
+        height: 100%;
+    }
+
+
 
 
 /* PLAYER */
