@@ -16,12 +16,44 @@
 	.logo, .playlist, .bar--footer p, .site--nav p{
 		display: none;
 	}
+	.logo--small{
+		display: block;
+	}
 
 	.small--bar{
 		display: none;
 	}
 
+	.main-menu__item::before {
+		display: none !important;
+	}
 
+	.menu-item__text {
+		display: none;
+	}
+
+	.main-menu__item > a {
+		justify-content: center;
+	}
+
+	.logo-wrapper {
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}
+
+	.logo-wrapper .logo-sm {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.logo-wrapper .logo {
+		display: none;
+	}
+
+	.sidebar-h-padding {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 
 
 
