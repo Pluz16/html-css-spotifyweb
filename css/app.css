@@ -258,7 +258,16 @@ a {
         color: white;
     }
 
-    
+    .played{
+        display: flex;
+        flex-grow: 1;
+    }
+
+    .col-6{
+        color: white;
+    }
+
+
 
 
 
