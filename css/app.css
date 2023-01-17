@@ -332,13 +332,16 @@ a {
         flex-direction: column;
         flex-shrink: 1;
         /* padding-bottom: 40px; */
+        flex-basis: 330px;
     }
 
     .row{
         display: flex;
         flex-direction: row;
         height: 275px; 
+        flex-basis: 100%;
         flex-shrink: 1;
+        flex-wrap: wrap;
         /* padding-bottom: 40px; */
         justify-content: space-around;
     }
@@ -346,10 +349,16 @@ a {
     .col{
         display: flex;
         flex-direction: column;
-        flex-basis: 275px;
-        width: 100%;
+        flex-basis: 180px;
+        /* width: 100%; */
+        
         flex-shrink: 1;
         align-items: center;
+    }
+
+    .img{
+        display: flex;
+        height: 275px;
     }
 
 
@@ -360,6 +369,39 @@ a {
     .played p{
         color: var(--gray);
     }
+
+
+
+    /* CREATED */
+
+    .created{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .song--container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    /* POPULAR */
+    .popular{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .artist--container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .artist--container img{
+        border-radius: 50%;
+    }
+
+
 
 
     
