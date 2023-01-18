@@ -394,6 +394,7 @@ a {
         display: flex;
         flex-direction: row;
         color: white;
+        flex-shrink: 1;
     }
 
 
@@ -410,6 +411,7 @@ a {
         display: flex;
         flex-direction: row;
         color: white;
+        flex-shrink: 1;
     }
 
     .artist--container{
