@@ -333,6 +333,7 @@ a {
         /* flex-grow: 1; */
         flex-shrink: 1;
         height: 275px;
+        color: white;
     }
 
     .row{
@@ -342,6 +343,10 @@ a {
         flex-grow: 1;
         gap: 13px;
         flex-wrap: wrap;
+    }
+
+    .col i{
+        display: none;
     }
 
 
